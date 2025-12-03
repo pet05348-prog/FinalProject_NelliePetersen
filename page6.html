@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Selector</title>
+    <link rel="stylesheet" href="mystyle1.css">
+    <script src="myjavascript3.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Nellie Petersen's Personal Portfolio</h1>
+            <nav>
+                <ul class = no-bullets>
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="page1.html">Images from Novel I Wrote And Self-published</a></li> 
+                    <li><a href="page2.html">Images from Novel I Wrote But Did Not Finish</a></li>
+                    <li><a href="page3.html">Images from Novels I Read</a></li>
+                    <li><a href="page4.html">Images from Alternate Versions Of Known Characters</a></li> 
+                    <li><a href="page5.html">Images from Random Thoughts</a></li> 
+                </ul>
+            </nav>
+            <div class="container2">
+                <label id='current-date'></label>
+                <label id='current-time'></label>
+            </div>
+            <div class="control contentBox">
+                <button id='decrease-font'>A-</button>
+                <button id='increase-font'>A+</button>
+            </div>
+            <div>
+                <label for="color-picker">Choose a text color:</label>
+                <!-- The input type="color" provides a user interface for color selection -->
+                <input type="color" id="color-picker" value="#000000">
+            </div>
+            <p>Change the Font of the Text Below</p>
+            <div>
+                <label for="font-selector">Choose a Font:</label>
+                <select id="font-selector">
+                    <option value="Arial, sans-serif">Arial</option>
+                    <option value="Georgia, serif">Georgia</option>
+                    <option value="'Courier New', monospace">Courier New</option>
+                    <option value="'Times New Roman', serif">Times New Roman</option>
+                </select>
+            </div>
+            <hr class = thick>
+    </header>
+
+    <div class="controls">
+        <label for="background-selector">Choose a background:</label>
+        <select id="background-selector">
+            <option value="none">No Background</option>
+            <option value="bluesky.png">Blue Sky 1</option>
+            <option value="bluesky1.png">Blue Sky 2</option>
+            <option value="bluesky2.png">Blue Sky 3</option>
+            <option value="bluesky3.png">Blue Sky 4</option>
+            <option value="nightsky.png">Night Sky 1</option>
+            <option value="nightsky1.png">Night Sky 2</option>
+            <option value="nightsky2.png">Night Sky 3</option>
+            <option value="nightsky3.png">Night Sky 4</option>
+            <option value="standing_at_the_abyss.png">Abyss 1</option>
+            <option value="standing_at_the_abyss1.png">Abyss 2</option>
+            <option value="standing_at_the_abyss2.png">Abyss 3</option>
+            <option value="standing_at_the_abyss3.png">Abyss 4</option>
+            <option value="stormysky.png">Stormy Sky 1</option>
+            <option value="stormysky.png">Stormy Sky 2</option>
+            <option value="stormysky.png">Stormy Sky 3</option>
+            <option value="stormysky.png">Stormy Sky 4</option>
+            <option value="angelwithbow.png">Angel</option>
+        </select>
+    </div>
+
+    <main>
+        <h1>Welcome to the Let's Play page!</h1>
+        <p id="text-to-change">You can change the background using the selector above. This is also the text that you can change the color of. Keep 
+            in mind that depending on the image you set the background to, you may really need to change the text color... Just to 
+            mention it, the strange image labeled as Night Sky 1 was created using the same prompt as the other three Night Sky images. The AI image 
+            generators can really come up with some weird stuff sometimes. I really kind of wanted to to webpages with generated images as the background, 
+            but since the other pages were so messy with all the other stuff on it, letting you guys pick an image seemed like an 'ok' idea. This website 
+            was made for a class I am currently taking and how often I will update is unknown, but I do occassionally get the image generating bug, so I 
+            will probably update it a bit. This website was a real eye-opener for me. I thought that I was doing fairly well once I got all the images 
+            loaded onto the pages, but then I started doing the JavaScipt. What was really fun was the fact that I kept getting errors on pages because 
+            the JavaScript kept trying to run code for things like the text prompt generator on pages that I did not intend for it to be running on. It 
+            took me forever to figure out how to fix it. I finally just made JavaScript files for the specific functions running on each page and only 
+            attached that file to the right page... I also did intend to try to do the setting of an image as the background on the home page, but the 
+            styling kept getting all messed up since I had a repeating linear gradient on the other pages and I could not figure out how to adjust my 
+            original style sheet to allow me to do what I wanted with it. My final major concern is all the forms I created for this website. When I 
+            started coding, I thought we would get to the chapter that discusses getting the form data and dealing with it, but we aren't covering it this 
+            semester. I'll either have to try to figure it out on my own or just leave the forms where people can submit things, but I don't know how to 
+            retrieve the data... One thing I really don't want to do is delete all that coding I did for those forms, that took FOREVER, even when I 
+            heavily used copy&paste! I suppose it is a bit ironic that this website is so focused on AI image generators and how much I am using them 
+            since for my current English I submitted a research paper arguing that using things like image generators, video generators, and text 
+            generators to write papers or novels is limiting humankind's creativity. I really do believe that, but my own drawing skills are really 
+            terrible, so I would never be able to produce anything like the kind of images I can generate with AI. One of the things I am most worried 
+            about is the use of AI in writing essays for homework, writing for work, and writing novels/poems, etc. Too many young people are using AI 
+            generators for those purposes and I feel they are losing the skills needed to problem solve creatively by doing so. I admit this is getting 
+            kind of rambling, but to fill up this page with some text I am pretty much just freewriting now.</p>
+    </main>
+
+    <footer>
+        <hr class = thick>
+         author: Nellie Petersen 
+         &copy; 2025 copyright reserved 
+        <small><a href="mailto:petersennellie@gmail.com">petersennellie@gmail.com</a></small> 
+            <nav>
+                <ul class = no-bullets>
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="page1.html">Images from Novel I Wrote And Self-published</a></li> 
+                    <li><a href="page2.html">Images from Novel I Wrote But Did Not Finish</a></li>
+                    <li><a href="page3.html">Images from Novels I Read</a></li>
+                    <li><a href="page4.html">Images from Alternate Versions Of Known Characters</a></li> 
+                    <li><a href="page5.html">Images from Random Thoughts</a></li> 
+                </ul>
+            </nav>
+        </footer>
+
+</body>
+</html>
